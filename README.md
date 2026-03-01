@@ -14,7 +14,7 @@ KRX is a CLI-based automated reconnaissance tool designed for Kali Linux.
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/krx.git
+git clone https://github.com/DuckZiiii300305/QuickReconTool.git
 cd krx
 chmod +x install.sh
 ./install.sh

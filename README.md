@@ -1,6 +1,6 @@
-# KRX - Kali Recon X
+# QuickReconTool - Quick Reconnaissance Tool
 
-KRX is a CLI-based automated reconnaissance tool designed for Kali Linux.
+This is a CLI-based automated reconnaissance tool designed for Kali Linux.
 
 ## Features
 
@@ -15,7 +15,7 @@ KRX is a CLI-based automated reconnaissance tool designed for Kali Linux.
 
 ```bash
 git clone https://github.com/DuckZiiii300305/QuickReconTool.git
-cd krx
+cd QuickReconTool
 chmod +x install.sh
 ./install.sh
 ```

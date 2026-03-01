@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>KRX Report - {{ data.target }}</title>
+</head>
+<body>
+<h1>Recon Report: {{ data.target }}</h1>
+
+<h2>Subdomains</h2>
+<ul>
+{% for sub in data.assets %}
+<li>{{ sub }}</li>
+{% endfor %}
+</ul>
+
+<h2>Live Hosts</h2>
+<ul>
+{% for host in data.live_hosts %}
+<li>{{ host }}</li>
+{% endfor %}
+</ul>
+
+<h2>Open Ports</h2>
+<ul>
+{% for port in data.ports %}
+<li>{{ port }}</li>
+{% endfor %}
+</ul>
+
+<h2>Directories</h2>
+<ul>
+{% for d in data.directories %}
+<li>{{ d }}</li>
+{% endfor %}
+</ul>
+
+<h2>Vulnerabilities</h2>
+<ul>
+{% for v in data.vulnerabilities %}
+<li>{{ v }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+mode: quick
+wordlist: /usr/share/wordlists/dirb/common.txt
+threads: 50
+output_dir: results
